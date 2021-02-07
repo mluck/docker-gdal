@@ -1,4 +1,4 @@
-FROM osgeo/gdal
+FROM osgeo/gdal:ubuntu-full-3.1.2
 
 ENV PORT=8888
 
@@ -10,10 +10,7 @@ RUN python -m pip install \
     gdal \
     geopandas \
     jupyter \
-    matplotlib \
-    descartes \
-    mapclassify \
-    pygeos
+    matplotlib
 
 RUN mkdir code
 WORKDIR /code
