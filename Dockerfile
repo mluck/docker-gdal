@@ -10,7 +10,8 @@ RUN python -m pip install \
     gdal \
     geopandas \
     jupyter \
-    matplotlib
+    matplotlib \
+    rasterio
 
 RUN mkdir code
 WORKDIR /code
