@@ -11,6 +11,7 @@ RUN python -m pip install \
     geopandas \
     jupyter \
     matplotlib \
+    rasterstats \
     rasterio
 
 RUN mkdir code
