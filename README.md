@@ -6,8 +6,6 @@ Docker Jupyter for GIS
 
 ## Usage
 
-.PHONY:
-
 build:
 	docker build . -t gdal -f Dockerfile
 
