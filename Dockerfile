@@ -2,8 +2,7 @@ FROM osgeo/gdal:ubuntu-full-3.1.2
 
 ENV PORT=8888
 
-RUN apt-get update
-RUN apt-get install -y \
+RUN apt-get update && apt-get install -y \
     python3-pip
 
 RUN python -m pip install \
