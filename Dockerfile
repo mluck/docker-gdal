@@ -10,6 +10,7 @@ RUN python -m pip install \
     geopandas \
     jupyter \
     matplotlib \
+    numba \
     rasterstats \
     rasterio
 
