@@ -13,8 +13,8 @@ RUN python -m pip install \
     rasterstats \
     rasterio
 
-RUN mkdir code
-WORKDIR /code
+RUN mkdir data
+WORKDIR /data
 
 ENV TINI_VERSION v0.6.0
 ADD https://github.com/krallin/tini/releases/download/${TINI_VERSION}/tini /usr/bin/tini
