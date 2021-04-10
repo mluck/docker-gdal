@@ -11,7 +11,8 @@ RUN python -m pip install \
     jupyter \
     matplotlib \
     rasterstats \
-    rasterio
+    rasterio \
+    scipy
 
 RUN mkdir data
 WORKDIR /data
